@@ -2,6 +2,15 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+body {
+    position: absolute;
+    width: 100%;
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -10,16 +19,116 @@ ul {
 .navbar-container {
     display: flex;
     justify-content: space-between;
-    padding: 5% 10%;
+    padding: 5%;
+}
+
+.main-title-container{
+    text-align: center;
+}
+
+.main-container{
+    width: 100%;
+}
+
+.route-container p {
+    padding: 5px;
+}
+
+.menu-container {
+    display: flex;
+}
+
+.menu-container ul {
+    padding-top: 10%;
+}
+
+.route-container {
+    display: flex;
 }
 
 .galery-container {
+    position: relative;
+    top: -130px;
     padding: 0 10%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
 }
-.route-container{
+
+.galery-container li {
     display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 5%;
+}
+
+.galery-container p {
+    text-align: center;
+}
+
+.secondary-info {
+    text-align: center;
+}
+
+.coupon-container {
+    padding: 1%;
+    border-top: solid;
+    border-width: 1px;
+    border-color: rgb(230, 229, 229);
+    padding: 2% 0;
+}
+
+.coupon-dsct {
+    font-weight: bold;
+}
+
+.contact-container {
+    padding: 1%;
+    border-top: solid;
+    border-width: 1px;
+    border-color: rgb(230, 229, 229);
+    padding: 2% 0;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+}
+.contact-info p {
+   padding: 0 10px;
+}
+
+.email-container {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.email-input {
+    border: none;
+    border-bottom: solid;
+    border-color: lightgray;
+    width: 80%;
+    margin: auto;
+}
+
+.footer-container {
+    border-top: solid;
+    border-width: 1px;
+    border-color: rgb(230, 229, 229);
+    padding: 2% 0;
+}
+
+.footer-list {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.footer-list ul {
+    padding: 0 2%;
+    font-size: 10px;
+}
+
+.footer-list ul li {
+    line-height: 1.5;
 }
