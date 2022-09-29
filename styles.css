@@ -84,6 +84,12 @@ ul {
   cursor: pointer;
 }
 
+.search-input{
+  border: none;
+  border-bottom: solid;
+  border-width: 1px;
+}
+
 .route-container {
   display: flex;
 }
