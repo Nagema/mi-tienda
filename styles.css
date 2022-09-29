@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 10%;
+}
+
+.galery-container {
+    padding: 0 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.route-container{
+    display: flex;
+}
