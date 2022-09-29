@@ -19,11 +19,15 @@ ul {
 .navbar-container {
     display: flex;
     justify-content: space-between;
-    padding: 5%;
+    padding: 0 5%;
+    position: relative;
+    top: 100px;
+    left: 30px;
 }
 
 .main-title-container{
     text-align: center;
+    padding-bottom: 12%;
 }
 
 .main-container{
@@ -47,19 +51,18 @@ ul {
 }
 
 .galery-container {
-    position: relative;
-    top: -130px;
     padding: 0 10%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
+    margin-bottom: 10%;
 }
 
 .galery-container li {
     display: flex;
     flex-direction: column;
     align-content: center;
-    margin: 5%;
+
 }
 
 .galery-container p {
