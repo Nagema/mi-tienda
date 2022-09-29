@@ -38,11 +38,18 @@ ul {
 
 .menu-container {
     display: flex;
+    flex-direction: column;
 }
 
 .menu-list {
     padding-top: 10%;
     line-height: 1.5;
+}
+
+.menu-option {
+    background-color: transparent;
+    border: none;
+    padding: 0;
 }
 
 .route-container {
