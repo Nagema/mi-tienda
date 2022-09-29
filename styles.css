@@ -18,16 +18,14 @@ ul {
 
 .navbar-container {
     display: flex;
-    justify-content: space-between;
-    padding: 0 5%;
+    justify-content: space-around;
+    padding: 0 1%;
     position: relative;
-    top: 100px;
-    left: 30px;
+    top: 130px;
 }
 
 .main-title-container{
     text-align: center;
-    padding-bottom: 12%;
 }
 
 .main-container{
@@ -42,8 +40,9 @@ ul {
     display: flex;
 }
 
-.menu-container ul {
+.menu-list {
     padding-top: 10%;
+    line-height: 1.5;
 }
 
 .route-container {
@@ -134,4 +133,13 @@ ul {
 
 .footer-list ul li {
     line-height: 1.5;
+}
+.final-footer-info {
+    border-top: solid;
+    border-width: 1px;
+    border-color: rgb(230, 229, 229);
+    padding: 2% 0;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
 }
