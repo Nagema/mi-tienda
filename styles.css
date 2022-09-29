@@ -15,8 +15,10 @@ ul {
   display: flex;
   justify-content: space-around;
   padding: 0 1%;
-  position: relative;
+  position: absolute;
   top: 140px;
+  z-index: 1;
+  width: 100%;
 }
 
 .main-title-container {
@@ -37,16 +39,42 @@ ul {
 }
 
 .menu-container {
-  display: flex;
-  flex-direction: column;
+  display: block;
+  text-decoration: none;
+  color: #191c26;
 }
 
-.menu-list {
-  padding-top: 10%;
-  line-height: 1.5;
+.menu-container ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 11px;
 }
-.menu-list li a {
-  color: black;
+
+.menu-container a {
+  padding-right: 1em;
+  text-decoration: none;
+  color: #101011;
+}
+
+.menu-container a:hover {
+  text-decoration: none;
+  color: rgb(10, 10, 10);
+  font-weight: 500;
+}
+
+.menu-container a:active {
+  text-decoration: none;
+}
+
+.menu-container ul li ul {
+  display: none;
+}
+
+.menu-container ul li a:hover + ul,
+.menu-container li ul:hover {
+  display: block;
 }
 
 .menu-option {
@@ -60,12 +88,18 @@ ul {
   display: flex;
 }
 
+.route-container p a {
+  color: #191c26;
+}
+
 .galery-container {
   padding: 0 10%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
   margin-bottom: 10%;
+  position: relative;
+  top: 220px;
 }
 
 .galery-container li {
@@ -88,6 +122,7 @@ ul {
   border-width: 1px;
   border-color: rgb(230, 229, 229);
   padding: 2% 0;
+  margin-top: 25%;
 }
 
 .coupon-dsct {
@@ -106,6 +141,7 @@ ul {
   display: flex;
   justify-content: center;
 }
+
 .contact-info p {
   padding: 0 10px;
   font-size: 12px;
@@ -146,6 +182,7 @@ ul {
 .footer-list ul li {
   line-height: 1.5;
 }
+
 .final-footer-info {
   border-top: solid;
   border-width: 1px;
