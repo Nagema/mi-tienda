@@ -26,6 +26,11 @@ ul {
 
 .main-title-container{
     text-align: center;
+    margin: 0;
+}
+
+.main-title-container h1{
+    margin: 0;
 }
 
 .main-container{
@@ -50,6 +55,7 @@ ul {
     background-color: transparent;
     border: none;
     padding: 0;
+    cursor: pointer;
 }
 
 .route-container {
@@ -120,6 +126,7 @@ ul {
     border-color: lightgray;
     width: 80%;
     margin: auto;
+    cursor: pointer;
 }
 
 .footer-container {
